@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jun 11 23:27:32 2020
+
+@author: luong hoang anh
+"""
+
+Task 0:
+Worst case Big O notation: O(2)
+
+Task 1:
+Worst case Big O notation: O(2n)
+
+Task 2:
+Worst case Big O notation: O(n)
+
+Task 3:
+Worst case Big O notation: 
+Part A: O(n)
+Part B: O(n)
+
+Task 4:
+Worst case Big O notation: O(3n)
