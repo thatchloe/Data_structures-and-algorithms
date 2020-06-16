@@ -1,23 +1,28 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jun 11 23:27:32 2020
+Created on Thu Jun 17 23:27:32 2020
 
-@author: luong hoang anh
+
 """
+Suppose that length of "calls" list is n and length of "texts" list is m.
 
 Task 0:
-Worst case Big O notation: O(2)
+There are 2 single implementations so the worst case Big O notation is O(2) or O(1) to be general.
 
 Task 1:
-Worst case Big O notation: O(2n)
+There are 2 loops in this problem, the number of iterations for the outer loop is n + m and that of the inner loop is 2.
+Therefore the worst case Big O notation is O(n + m + 2) and as an approximation it results in O(n + m).
 
 Task 2:
-Worst case Big O notation: O(n)
+The worst case scenario is that we have to look all over of the list, so time complexity is O(n).
 
-Task 3:
-Worst case Big O notation: 
-Part A: O(n)
-Part B: O(n)
+Task 3: 
+  Part A: As we can see that there are 2 loops in this algorithm, yet the length of the second loop has been 
+  significantly reduced which is much smaller than the original size, so the worst case scenario is O(n).
+
+  Part B:  Worst case is n iterations so O(n) is the time complexity.
 
 Task 4:
-Worst case Big O notation: O(3n)
+In this case worst case time complexity is the sum of lengths of the four loops, and for the approximation
+we conclude in O(n + m).
+ 
