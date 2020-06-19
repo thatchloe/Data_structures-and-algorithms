@@ -17,12 +17,10 @@ Task 2:
 The worst case scenario is that we have to look all over of the list, so time complexity is O(n).
 
 Task 3: 
-  Part A: As we can see that there are 2 loops in this algorithm, yet the length of the second loop has been 
-  significantly reduced which is much smaller than the original size, so the worst case scenario is O(n).
+  Part A: As we can see that there are 2 loops in this algorithm, the first loop's time complexity is O(n) and the second one's is O(nlogn), so the worst case scenario is O(n + nlogn).
 
   Part B:  Worst case is n iterations so O(n) is the time complexity.
 
 Task 4:
-In this case worst case time complexity is the sum of lengths of the four loops, and for the approximation
-we conclude in O(n + m).
+In this case worst case time complexity is the sum of lengths of the four loops, which is  O(2n + m + nlogn).
  
